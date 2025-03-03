@@ -7,7 +7,7 @@ Created on Thu Feb 13 18:59:39 2025
 """
 
 class MorpionGame:
-    def __init__(self):
+    def __init__(self): # initialisation des variables
         self.Lt = [
             ['X', 1, 2, 3],
             ['a', '/','/', '/'],
@@ -59,6 +59,6 @@ class MorpionGame:
                 self.Etat = False
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": # permet de lancer le jeu
     game = MorpionGame()
     game.main_loop()
